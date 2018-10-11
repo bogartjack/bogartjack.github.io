@@ -1,0 +1,47 @@
+html, body{height: 100%}
+p {display: inline}
+#tomogatchi {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	z-index: 10000;
+	transform: translate(-50%, -50%);
+}
+
+#intro{
+	height:5%;
+}
+
+.action-button{
+	height: 5%;
+	width: 25%;
+	position: left;
+	background-color: grey;
+	display: inline-block;
+	float: left;
+}
+
+.statusBar{
+	float: left;
+	height: 5%;
+	width: 25%;
+	background-color: black;
+	display:inline-block;
+}
+
+#hunger{
+	background-color: red;
+}
+
+#sleepiness{
+	background-color: purple;
+}
+
+#boredom{
+	background-color: pink;
+}
+
+#age{
+	background-color: grey;
+}
